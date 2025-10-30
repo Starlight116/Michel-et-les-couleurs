@@ -73,11 +73,14 @@ section {
 footer {
     font-weight: 500;
     font-style: italic;
-    font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
     align-self: flex-start; /* Aligne le footer à gauche */
     padding: 0 32px 32px 32px;
+}
+h1 {
+    margin: 0;
+    font-size: 16px;
 }
 
 
