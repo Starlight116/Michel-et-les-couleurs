@@ -48,7 +48,7 @@ header {
 
 /* Style pour chaque section */
 section {
-    height : 100%;
+    height : 800px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

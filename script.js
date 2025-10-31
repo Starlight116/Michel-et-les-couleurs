@@ -10,7 +10,7 @@ const observer = new IntersectionObserver((entries) => {
         });
     }, 
     { threshold: 0.3 }
-);// Le seuil de 0.3 signifie que 30% de l'élément doit être visible pour déclencher l'animation
+); // Le seuil de 0.3 signifie que 30% de l'élément doit être visible pour déclencher l'animation
 
 contents.forEach(content => observer.observe(content));
 
